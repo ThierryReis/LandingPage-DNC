@@ -1,0 +1,143 @@
+*{  margin: 0px;
+    font-family: inter;
+    
+}
+
+#setorsuperior{
+    background-image: url(icones/fundosuperior.svg);
+
+}
+
+#logodnc{
+    margin:20px 0px 0px 50px;
+    
+}
+
+#titulosuperior{
+    margin-top: 70px;
+    margin-left: 180px;
+    color: white;
+}
+
+#textosuperior{
+    color: white;
+    margin-left: 180px;
+    padding-bottom: 100px;
+}
+
+#menuinformativo{
+    background-color: #EAECE5;
+    padding: 40px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;   
+}
+
+.texto{
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.icones{
+    padding: 15px;
+}
+
+#videoetexto{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    align-items: center;   
+}
+
+#textovideo{
+    color:#247BA0;
+    font-size: 30px;
+}
+
+#video{
+    margin: 70px 0px 0px 150px;
+}
+
+#cards{
+    background-color: #247BA0;
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+}
+
+#titulocard{
+    padding-top: 80px;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+#cardcarrosel{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card{
+    margin-bottom: 80px;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+#samantha{
+    margin-top: 50px;
+    display: none;
+
+    
+}
+
+#seta-esquerda{
+    display: none;
+    margin-top: 90%;
+}
+
+#seta-direita{
+    margin-top: 90%;
+}
+
+#formulario{
+    text-align: center;
+    
+}
+
+#titulo-formulario{
+    font-size: 25px;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 15px;
+
+}
+
+button{
+    background-color: #247BA0;
+    width: 250px;
+    height: 30px;
+    margin-bottom: 70px;
+    margin-top: 15px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:#247BA0;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 10px 15px 10px #011822 ;
+    transition-duration: 0.5s;
+
+}
